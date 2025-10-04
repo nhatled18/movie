@@ -1,0 +1,77 @@
+/* Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1a1a1a; /* Đổi từ #f4f4f4 sang tối */
+  color: #333;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+/* Navbar - Đã có riêng trong Navbar.css */
+
+/* Container - CHỈ dùng cho trang khác, KHÔNG dùng cho Movies */
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 10px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Movie list - XÓA bỏ vì đã có design mới */
+/* ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+  padding: 10px;
+  background: #fafafa;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+li:hover {
+  background: #eee;
+} */
+
+/* Forms */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: auto;
+  gap: 10px;
+}
+
+input, select, button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  background: #00aced;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+button:hover {
+  background: #0084b4;
+}
+
+
